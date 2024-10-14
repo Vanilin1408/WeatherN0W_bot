@@ -1,6 +1,6 @@
 # Импорт написанных модулей
 from modules.bot import WeatherTGBot
-# Конфиг
+# Файл конфигурации
 import config
 
 

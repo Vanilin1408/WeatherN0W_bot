@@ -1,7 +1,6 @@
 import logging
-from telegram import Update, Bot
-from telegram.constants import ParseMode
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters, Updater
+from telegram import Update
+from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 from modules.WeatherAPI import WeatherAPI
 
 # Логирование для удобства отладки
