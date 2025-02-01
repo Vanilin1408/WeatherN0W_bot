@@ -1,20 +1,21 @@
 # Weather Now Bot
-Данный Telegram-бот предоставляет актуальные данные о погоде по названию города, используя API **OpenWeatherMap**. 
-Бот позволяет пользователям легко получать информацию о текущих погодных условиях в выбранном городе. 
-Бот является асинхронным, запросы к API также асинхронны. 
-Название города можно отправлять как на английском, так и на русском, независимо от регистра.
+This Telegram bot provides real-time weather data for a specified city using the **OpenWeatherMap** API.
+It allows users to easily retrieve current weather conditions for their chosen location.
+The bot operates asynchronously, and API requests are also handled asynchronously.
+City names can be entered in either English or Russian, regardless of case sensitivity.
 
-### Характеристики
-Бот выводит следующие характеристики погоды:
-- Название города.
-- Температура в градусах Цельсия.
-- Влажность в %.
-- Скорость ветра в м/с. 
-- Давление в гПа.
-- Процент облачности.
-- Краткое описание погодных условий.
-- Время рассвета.
-- Время заката.
+### Features
+The bot displays the following weather details:
+- City name
+- Temperature in Celsius
+- Humidity in %
+- Wind speed in m/s
+- Pressure in hPa
+- Cloudiness percentage
+- Short description of weather conditions
+- Sunrise time
+- Sunset time
 
-Для запуска бота необходимо переименовать файл конфигурации *config_ex.py* на *config.py* и изменить значения
-ТОКЕНА бота и API ключа (**OpenWeatherMap** API) на реальные.
+### Setup
+To launch the bot, rename the configuration file *config_ex.py* to *config.py* and update the values
+for the bot TOKEN and API key (**OpenWeatherMap** API) with your actual credentials.
